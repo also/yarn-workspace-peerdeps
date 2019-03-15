@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "workspaces": [
+    "a",
+    "b",
+    "shared"
+  ],
+  "scripts": {
+    "test": "node a/index.js && node b/index.js"
+  }
+}
